@@ -1,0 +1,18 @@
+streamlit==1.29.0
+Pillow==10.1.0
+torch==2.1.0
+torchvision==0.16.1
+tqdm==4.66.1
+numpy==1.26.2
+opencv-python==4.9.0.74
+gfpgan==2.3.0
+realesrgan==1.0.2
+Notas importantes:
+
+gfpgan y realesrgan requieren PyTorch. Asegúrate de instalar la versión de PyTorch compatible con tu GPU o CPU. Por ejemplo, si usas CUDA 12, la instalación de PyTorch puede variar.
+
+opencv-python es usado internamente por muchos de estos modelos para procesar imágenes.
+
+tqdm y numpy son dependencias comunes para procesamiento y seguimiento de progreso.
+
+Ajusta las versiones según tus pruebas para evitar conflictos.
